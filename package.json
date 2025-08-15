@@ -16,9 +16,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "env-cmd -f .env.${REACT_APP_PROFILE:-local} react-scripts start",
-    "build": "env-cmd -f .env.${REACT_APP_PROFILE:-prod} react-scripts build",
-    "serve": "serve   -s build"
+    "start": "cross-env REACT_APP_PROFILE=local env-cmd -f .env.$REACT_APP_PROFILE react-scripts start",
+    "build": "cross-env REACT_APP_PROFILE=prod env-cmd -f .env.$REACT_APP_PROFILE react-scripts build",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.0.0",
     "env-cmd": "^10.1.0"
   }
 }
