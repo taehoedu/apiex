@@ -1,0 +1,15 @@
+div.footer_wrap {
+    border-top: 1px solid #dadada;
+    background-color: #2e2e2e;
+    margin-top: 50px;
+}
+
+div.footer_wrap .content {
+    width: 1000px;
+    height: 200px;
+    line-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #c9c9c9;
+    font-size: .9em;
+}

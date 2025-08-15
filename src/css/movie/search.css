@@ -1,0 +1,44 @@
+div.search_wrap .content > .search {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.search_wrap .content > .total {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+div.search_wrap .content > .list {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.search_wrap .content > .list table {
+    border-collapse: collapse;
+}
+
+div.search_wrap .content > .list table td {
+    padding: 7px;
+    vertical-align: top;
+}
+
+div.search_wrap .content > .list td.thum {
+    width: 200px;
+}
+
+div.search_wrap .content > .list td.thum img {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+div.search_wrap .content > .list td.summary li {
+    border-bottom: 1px dotted #dadada;
+    margin-top: 10px;
+}
+
+div.search_wrap .content > .list td.summary li:last-child {
+    border-bottom: initial;
+}
+

@@ -1,0 +1,31 @@
+div.modal_bg {
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+div.modal_bg table {
+    border-collapse: collapse;
+}
+
+div.modal_bg table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+div.modal_bg table td:nth-child(2),
+div.modal_bg table td:nth-child(3) {
+    width: 400px;
+}
+
+div.modal_bg > div.modal_content {
+    width: 1200px;
+    margin: 50px auto 0;
+    color: #fff;
+}
+
+div.modal_bg > div.modal_content li {
+    border-bottom: 1px dotted #dadada;
+    margin-top: 10px;
+}

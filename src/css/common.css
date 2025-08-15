@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    background-color: rgba(170, 221, 241, .4);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 2px 2px 0px rgba(200, 200, 200, .5);
+}
